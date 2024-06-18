@@ -30,11 +30,6 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # https://jnikula.github.io/hawkmoth/dev/extension.html#configuration
 
 # Setup Clang on Read The Docs
-if 'READTHEDOCS' in os.environ:
-    from hawkmoth.util import readthedocs
-
-    readthedocs.clang_setup()
-
 hawkmoth_root = os.path.join(os.path.abspath(os.path.dirname(__file__)), '../src')
 
 
