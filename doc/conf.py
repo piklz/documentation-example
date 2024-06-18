@@ -16,8 +16,11 @@ release = '0.1'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-'myst_parser',
-'hawkmoth'
+    'myst_parser',
+    'hawkmoth',
+    'hawkmoth.ext.javadoc',
+    'hawkmoth.ext.napoleon',
+    'sphinx.ext.intersphinx',
 ]
 
 templates_path = ['_templates']
