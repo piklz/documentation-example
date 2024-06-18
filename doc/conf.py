@@ -23,7 +23,7 @@ breathe_default_project = "documentation-example"
 source_suffix = '.rst'
 
 
-project = 'Example'
+project = u'documentation-example'
 copyright = 'workshop participant'
 author = 'workshop participant'
 release = '0.1'
