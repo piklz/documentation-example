@@ -14,6 +14,6 @@ Welcome to Example's documentation!
    some-feature.md
    another-feature.md
 
-.. doxygenclass:: setup
-   :project: setup
+.. doxygenclass:: documentation-example
+   :project: documentation-example
    :members:
