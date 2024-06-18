@@ -20,7 +20,9 @@ extensions = [
     'myst_parser',
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
-    'breathe'
+    'breathe',
+    'sphinx.ext.todo',
+    'sphinx.ext.viewcode',
 ]
 
 templates_path = ['_templates']
