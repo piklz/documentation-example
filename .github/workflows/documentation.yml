@@ -18,7 +18,7 @@ jobs:
           pip install sphinx sphinx_rtd_theme myst_parser
           
       - name: Run doxygen
-        working-directory: ../doc
+        working-directory: doc
         run: doxygen
         
       - name: Sphinx build
