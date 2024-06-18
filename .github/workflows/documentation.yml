@@ -17,12 +17,6 @@ jobs:
         run: |
           pip install sphinx sphinx_rtd_theme myst_parser
           
-      - name: Doxygen as Action
-        uses: dreygur/doxygen@1.0.1
-        with:
-          working-directory: 'src/'
-          doxyfile-path: 'docs/'              
-        
       - name: Sphinx build
         run: |
           sphinx-build doc _build
