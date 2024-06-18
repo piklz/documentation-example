@@ -1,5 +1,5 @@
 # Documentation example WELCOME 2024
-
+![wordflow status]https://github.com/piklz/documentation-example/actions/workflows/documentation.yml/badge.svg
 We use this example in the lesson
 [How to document your research software](https://coderefinery.github.io/documentation/).
 
