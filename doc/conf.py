@@ -13,14 +13,14 @@ copyright = 'workshop participant'
 author = 'workshop participant'
 release = '0.1'
 
-
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
     'myst_parser',
     'sphinx.ext.autodoc',
-    'sphinx.ext.intersphinx'
+    'sphinx.ext.intersphinx',
+    'breathe'
 ]
 
 templates_path = ['_templates']
