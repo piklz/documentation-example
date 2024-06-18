@@ -16,6 +16,9 @@ jobs:
       - name: Install dependencies
         run: |
           pip install sphinx sphinx_rtd_theme myst_parser
+      - name: Run doxygen
+        working-directory: docs
+          run: doxygen
       - name: Sphinx build
         run: |
           sphinx-build doc _build
