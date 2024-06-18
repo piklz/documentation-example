@@ -17,10 +17,10 @@ if read_the_docs_build:
     subprocess.call('doxygen', shell=True)
 
 extensions = ['breathe']
-breathe_projects = { 'ArduinoDocs': 'xml' }
-breathe_default_project = "ArduinoDocs"
+breathe_projects = { 'documentation-example': 'xml' }
+breathe_default_project = "documentation-example"
 
-
+source_suffix = '.rst'
 
 
 project = 'Example'
