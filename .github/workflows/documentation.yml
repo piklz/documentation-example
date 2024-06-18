@@ -16,12 +16,15 @@ jobs:
       - name: Install dependencies
         run: |
           pip install sphinx sphinx_rtd_theme myst_parser
+          
       - name: Run doxygen
         working-directory: docs
-          run: doxygen
+        run: doxygen
+        
       - name: Sphinx build
         run: |
           sphinx-build doc _build
+          
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
