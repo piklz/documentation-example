@@ -9,4 +9,8 @@ void setup ()
 // -----------------------------------------------------------------------------
 void loop ()
 {
+/**
+   * @brief function to read values from battery pin
+   * 
+   */
 }
