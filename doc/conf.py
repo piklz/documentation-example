@@ -47,6 +47,7 @@ if 'READTHEDOCS' in os.environ:
     readthedocs.clang_setup()
 hawkmoth_root = os.path.abspath('../src')
 
+hawkmoth_clang = ['-I../src', '-DHAWKMOTH']
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
