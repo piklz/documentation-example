@@ -1,4 +1,4 @@
-PROJECT_NAME = "documentation-example"
+PROJECT_NAME           = "documentation-example"
 PROJECT_NUMBER         =
 PROJECT_BRIEF          =
 PROJECT_LOGO           =
