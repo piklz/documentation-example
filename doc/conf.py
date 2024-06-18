@@ -44,7 +44,7 @@ if 'READTHEDOCS' in os.environ:
     from hawkmoth.util import readthedocs
 
     readthedocs.clang_setup()
-hawkmoth_root = os.path.join(os.path.abspath(os.path.dirname(__file__)), '../src')
+hawkmoth_root = os.path.abspath('../src')
 
 
 # -- Options for HTML output -------------------------------------------------
