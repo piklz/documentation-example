@@ -6,6 +6,21 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import sys
+import os
+import shlex
+import subprocess
+
+read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
+
+if read_the_docs_build:
+    subprocess.call('doxygen', shell=True)
+
+extensions = ['breathe']
+breathe_projects = { 'ArduinoDocs': 'xml' }
+breathe_default_project = "ArduinoDocs"
+
+
 
 
 project = 'Example'
