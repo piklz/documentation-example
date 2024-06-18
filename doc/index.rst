@@ -13,3 +13,7 @@ Welcome to Example's documentation!
    helloworld.md
    some-feature.md
    another-feature.md
+
+.. doxygenclass:: ArduinoDocs
+   :project: ArduinoDocs
+   :members:
