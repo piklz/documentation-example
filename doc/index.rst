@@ -9,9 +9,6 @@ Welcome to Example's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-   c:autofunction:: setup
-   :file: hello_world.ino
-
    helloworld.md
    some-feature.md
    another-feature.md
