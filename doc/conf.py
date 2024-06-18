@@ -30,7 +30,7 @@ extensions = [
     'hawkmoth',
     'hawkmoth.ext.javadoc',
     'hawkmoth.ext.napoleon',
-    'sphinx.ext.intersphinx',
+    'sphinx.ext.intersphinx'
 ]
 
 templates_path = ['_templates']
