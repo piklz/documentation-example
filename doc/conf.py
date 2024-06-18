@@ -6,14 +6,6 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-import os
-import sys
-
-# Use the installed Hawkmoth package for CI, testing, and Read the Docs, while
-# allowing documentation build using Hawkmoth from the source tree.
-if not tags.has('use-installed-hawkmoth') and 'READTHEDOCS' not in os.environ:
-    sys.path.insert(0, os.path.abspath('../src'))
-
 
 
 project = 'Example'
@@ -28,9 +20,6 @@ release = '0.1'
 extensions = [
     'myst_parser',
     'sphinx.ext.autodoc',
-    'hawkmoth',
-    'hawkmoth.ext.javadoc',
-    'hawkmoth.ext.napoleon',
     'sphinx.ext.intersphinx'
 ]
 
@@ -40,14 +29,6 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- Options for Hawkmoth ----------------------------------------------------
 # https://jnikula.github.io/hawkmoth/dev/extension.html#configuration
 
-# Setup Clang on Read The Docs
-if 'READTHEDOCS' in os.environ:
-    from hawkmoth.util import readthedocs
-
-    readthedocs.clang_setup()
-hawkmoth_root = os.path.abspath('../src')
-
-hawkmoth_clang = ['-I../src', '-DHAWKMOTH']
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
