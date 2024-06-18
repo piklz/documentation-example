@@ -1,4 +1,4 @@
-PROJECT_NAME = "EXAMPLEDOCS"
+PROJECT_NAME = "documentation-example"
 XML_OUTPUT = xml
 INPUT = ../src
 GENERATE_LATEX = NO
