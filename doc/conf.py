@@ -21,7 +21,7 @@ breathe_projects = { 'documentation-example': 'xml' }
 breathe_default_project = "documentation-example"
 
 source_suffix = '.rst'
-
+master_doc = 'index'
 
 project = u'documentation-example'
 copyright = 'workshop participant'
