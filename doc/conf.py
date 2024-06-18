@@ -6,6 +6,16 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+import os
+import sys
+
+# Use the installed Hawkmoth package for CI, testing, and Read the Docs, while
+# allowing documentation build using Hawkmoth from the source tree.
+if not tags.has('use-installed-hawkmoth') and 'READTHEDOCS' not in os.environ:
+    sys.path.insert(0, os.path.abspath('../src'))
+
+
+
 project = 'Example'
 copyright = 'workshop participant'
 author = 'workshop participant'
@@ -30,6 +40,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # https://jnikula.github.io/hawkmoth/dev/extension.html#configuration
 
 # Setup Clang on Read The Docs
+if 'READTHEDOCS' in os.environ:
+    from hawkmoth.util import readthedocs
+
+    readthedocs.clang_setup()
 hawkmoth_root = os.path.join(os.path.abspath(os.path.dirname(__file__)), '../src')
 
 
