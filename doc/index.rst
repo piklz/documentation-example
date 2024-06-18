@@ -14,6 +14,6 @@ Welcome to Example's documentation!
    some-feature.md
    another-feature.md
 
-.. doxygenclass:: ArduinoDocs
-   :project: ArduinoDocs
+.. doxygenclass:: setup
+   :project: setup
    :members:
