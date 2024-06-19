@@ -14,9 +14,6 @@ Welcome to Example's documentation!
    some-feature.md
    another-feature.md
 
-.. autosummary:: ArduinoDocs
-   :toctree: ArduinoDocs
-   :cpp:ArduinoDocs:
 
 .. _ESP32 Project C API:
 
