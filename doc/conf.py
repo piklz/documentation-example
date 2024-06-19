@@ -12,16 +12,10 @@ import shlex
 import subprocess
 sys.path.insert(0, os.path.abspath('..'))  # Add parent directory to path
 
-read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
-
-if read_the_docs_build:
-    subprocess.call('doxygen', shell=True)
-
-
 source_suffix = '.rst'
 master_doc = 'index'
 
-project = u'documentation-example'
+project = u'ArduinoDocs'
 copyright = 'workshop participant'
 author = 'workshop participant'
 release = '0.1'
@@ -41,7 +35,7 @@ extensions = [
 
 # Breathe configuration (adjust paths as needed)
 breathe_projects = {
-    'documentation-example': ('../src', '.')  # Replace with your project name and source/header paths
+    'ArduinoDocs': ('../src', '.')  # Replace with your project name and source/header paths
 }
 breathe_default_group = 'documentation-example'  # Replace with your project name
 
