@@ -34,10 +34,12 @@ release = '0.1'
 extensions = [
     'myst_parser',
     'sphinx.ext.autodoc',
+    'sphinx.ext.autoapi',
     'sphinx.ext.intersphinx',
     'breathe',
     'sphinx.ext.todo',
     'sphinx.ext.viewcode',
+    'sphinx.ext.autosummary',
 ]
 
 templates_path = ['_templates']
