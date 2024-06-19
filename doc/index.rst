@@ -25,8 +25,8 @@ API Reference
 
 This section provides detailed information about the functions available in the project, automatically generated using Breathe.
 
-.. doxygen:: YourProjectName  # Replace with your project name
-   :project: YourProjectName
+.. doxygen:: ArduinoDocs  # Replace with your project name
+   :project: ArduinoDocs
 
 **Documented Functions:**
 
