@@ -26,6 +26,9 @@ API Reference
 * :cpp:func:`loop`
 * :cpp:func:`batteryRead`
 
+introduction  # Optional
+   ArduinoDocs_api
+
 **Additional Documentation (Optional):**
 
 (In this section, you can add further explanations and details for the documented functions beyond what Breathe extracts from code comments.)
