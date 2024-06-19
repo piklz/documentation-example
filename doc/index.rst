@@ -19,7 +19,7 @@ Welcome to Example's documentation!
 
 API Reference
 ==============
-:c:func:`batteryRead`
+:c:func:`batteryRead()`
 **Documented Functions:**
 :c:func:`setup`
     Sets up the initial configuration for the Arduino board.
@@ -28,21 +28,6 @@ API Reference
 :c:func:`batteryRead`
     Reads the battery voltage and returns the value.
 
-**Additional Documentation (Optional):**
-
-(In this section, you can add further explanations and details for the documented functions beyond what Breathe extracts from code comments.)
-
-* **setup Function:**
-   - Describe the initialization steps performed by `setup()`. Consider mentioning specific actions like setting up serial communication or initializing pins.
-* **loop Function:**
-   - Explain the repetitive actions or processes handled by `loop()`. Describe how it might read sensor data, control actuators, or communicate with other devices.
-* **batteryRead Function:**
-   - Explain the purpose of this function in more detail.
-   - Describe the parameters it takes (e.g., the pin number for reading battery voltage).
-   - Specify the return type (e.g., voltage value, error code).
-   - Provide code examples demonstrating how to use the function in your Arduino code.
-
-.. include:: links.rst  # Optional file for external links
 
 Indices and tables
 ==================
