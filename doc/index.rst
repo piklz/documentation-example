@@ -19,15 +19,12 @@ Welcome to Example's documentation!
 
 API Reference
 ==============
+
 :c:func:`batteryRead()`
 **Documented Functions:**
 :c:func:`setup`
-    Sets up the initial configuration for the Arduino board.
 :c:func:`loop`
-    The main loop of the program, continuously executed.
 :c:func:`batteryRead`
-    Reads the battery voltage and returns the value.
-
 
 Indices and tables
 ==================
@@ -35,4 +32,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
