@@ -36,7 +36,7 @@ extensions = [
 
 # Breathe configuration (adjust paths as needed)
 breathe_projects = {
-    'ArduinoDocs': ('/src', '.')  # Replace with your project name and source/header paths
+    'ArduinoDocs': ('../src/', '.')  # Replace with your project name and source/header paths
 }
 breathe_default_group = 'ArduinoDocs'  # Replace with your project name
 
