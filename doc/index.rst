@@ -17,4 +17,19 @@ Welcome to Example's documentation!
 .. autosummary:: ArduinoDocs
    :toctree: ArduinoDocs
    :cpp:ArduinoDocs:
+.. _ESP32 Project C API:
+
+ESP32 Project C API Reference
+===============================
+
+This section documents the C API functions available in the project.
+
+.. doxygen:: documentation-example  # Replace with your project name
+   :project: documentation-example
+
+**Functions:**
+
+* :cpp:func:`setup`
+* :cpp:func:`loop`
+* ... (other documented functions from your Arduino code)
 
