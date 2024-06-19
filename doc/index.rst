@@ -17,3 +17,9 @@ Welcome to Example's documentation!
 .. doxygenclass:: documentation-example
    :project: documentation-example
    :members:
+
+.. autosummary::
+   :toctree: DIRNAME
+
+   sphinx.environment.BuildEnvironment
+   sphinx.util.relative_uri
