@@ -19,7 +19,7 @@ Welcome to Example's documentation!
    :members:
 
 .. autosummary::
-   :toctree: .
+   :toctree: documentation-example
 
    sphinx.environment.BuildEnvironment
    sphinx.util.relative_uri
