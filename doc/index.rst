@@ -16,22 +16,44 @@ Welcome to Example's documentation!
 
 .. autosummary:: ArduinoDocs
    :toctree: ArduinoDocs
-   :c:ArduinoDocs:
+   :cpp:ArduinoDocs:
 
 .. _ESP32 Project C API:
 
-ESP32 Project C API Reference
-===============================
+API Reference
+==============
 
-This section documents the C API functions available in the project.
+This section provides detailed information about the functions available in the project, automatically generated using Breathe.
 
-.. doxygen:: ArduinoDocs  # Replace with your project name
-   :project: ArduinoDocs
+.. doxygen:: YourProjectName  # Replace with your project name
+   :project: YourProjectName
 
-**Functions:**
+**Documented Functions:**
 
 * :cpp:func:`setup`
 * :cpp:func:`loop`
 * :cpp:func:`batteryRead`
-* ... (other documented functions from your Arduino code)
+
+**Additional Documentation (Optional):**
+
+(In this section, you can add further explanations and details for the documented functions beyond what Breathe extracts from code comments.)
+
+* **setup Function:**
+   - Describe the initialization steps performed by `setup()`. Consider mentioning specific actions like setting up serial communication or initializing pins.
+* **loop Function:**
+   - Explain the repetitive actions or processes handled by `loop()`. Describe how it might read sensor data, control actuators, or communicate with other devices.
+* **batteryRead Function:**
+   - Explain the purpose of this function in more detail.
+   - Describe the parameters it takes (e.g., the pin number for reading battery voltage).
+   - Specify the return type (e.g., voltage value, error code).
+   - Provide code examples demonstrating how to use the function in your Arduino code.
+
+.. include:: links.rst  # Optional file for external links
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
 
