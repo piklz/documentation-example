@@ -21,10 +21,9 @@ API Reference
 ==============
 
 :c:func:`batteryRead()`
-**Documented Functions:**
 :c:func:`setup`
 :c:func:`loop`
-:c:func:`batteryRead`
+:cpp:func:`batteryRead`
 
 Indices and tables
 ==================
