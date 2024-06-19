@@ -11,7 +11,7 @@ import os
 import shlex
 import subprocess
 #sys.path.insert(0, os.path.abspath('..'))  # Add parent directory to path
-
+sys.path.insert(0, os.path.abspath('../..'))
 source_suffix = '.rst'
 master_doc = 'index'
 
@@ -36,7 +36,7 @@ extensions = [
 
 # Breathe configuration (adjust paths as needed)
 breathe_projects = {
-    'documentation-example': ('.', '.')  # Replace with your project name and source/header paths
+    'documentation-example': ('../src', '.')  # Replace with your project name and source/header paths
 }
 breathe_default_group = 'documentation-example'  # Replace with your project name
 
