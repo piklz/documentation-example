@@ -51,7 +51,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- Breathe configuration -------------------------------------------------
 
 breathe_projects = {
-	"C++ Sphinx Doxygen Breathe": "_build/src/"
+	"ArduinoDocs": "_build/src/"
 }
 breathe_default_project = "C++ Sphinx Doxygen Breathe"
 breathe_default_members = ('members', 'undoc-members')
