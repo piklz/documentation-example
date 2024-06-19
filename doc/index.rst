@@ -19,13 +19,13 @@ Welcome to Example's documentation!
 
 API Reference
 ==============
-
+:c:func:`batteryRead`
 **Documented Functions:**
-:cpp:func:`setup`
+:c:func:`setup`
     Sets up the initial configuration for the Arduino board.
-:cpp:func:`loop`
+:c:func:`loop`
     The main loop of the program, continuously executed.
-:cpp:func:`batteryRead`
+:c:func:`batteryRead`
     Reads the battery voltage and returns the value.
 
 **Additional Documentation (Optional):**
