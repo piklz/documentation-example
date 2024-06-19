@@ -48,6 +48,15 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # https://jnikula.github.io/hawkmoth/dev/extension.html#configuration
 
 
+
+# -- Breathe configuration -------------------------------------------------
+
+breathe_projects = {
+	"C++ Sphinx Doxygen Breathe": "_build/xml/"
+}
+breathe_default_project = "C++ Sphinx Doxygen Breathe"
+breathe_default_members = ('members', 'undoc-members')
+
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
