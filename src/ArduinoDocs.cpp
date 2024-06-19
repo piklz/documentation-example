@@ -4,6 +4,7 @@
  * Copyright (c) 2015 Circuitar
  * This software is released under the MIT license. See the attached LICENSE file for details.
  */
+// In your source file (e.g., ArduinoDocs.ino)
 #include <ArduinoDocs.h>
 
 ArduinoDocs::ArduinoDocs() {
