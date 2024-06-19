@@ -6,7 +6,14 @@
  */
 // In your source file (e.g., ArduinoDocs.ino)
 #include <ArduinoDocs.h>
-
+/**
+ * @brief .... (IT DOES STUFF function)
+ *
+ * .... (Detailed description of what the function does and parameters)
+ *
+ * @param .... (Parameter name and description)
+ * @return .... (Return value description)
+ */
 ArduinoDocs::ArduinoDocs() {
   // Constructor code here
 }
