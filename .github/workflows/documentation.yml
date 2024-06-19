@@ -15,7 +15,6 @@ jobs:
           python-version: '3.11.9'
       - name: Install dependencies
         run: |
-          sudo apt-get install -y doxygen
           pip install sphinx sphinx_rtd_theme sphinx-rtd-dark-mode myst_parser breathe
           
       - name: Sphinx build
