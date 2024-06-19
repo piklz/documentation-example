@@ -61,4 +61,8 @@ breathe_default_members = ('members', 'undoc-members')
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
+html_theme_options = {
+    'default_dark_mode': True,  # Set to True for dark mode by default
+    # Other theme options (refer to sphinx_rtd_theme documentation)
+}
 html_static_path = ['_static']
