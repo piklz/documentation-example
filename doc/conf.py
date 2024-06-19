@@ -16,9 +16,6 @@ read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 if read_the_docs_build:
     subprocess.call('doxygen', shell=True)
 
-extensions = ['breathe']
-breathe_projects = { 'documentation-example': 'xml' }
-breathe_default_project = "documentation-example"
 
 source_suffix = '.rst'
 master_doc = 'index'
