@@ -30,7 +30,8 @@ This section documents the C API functions available in the project.
 
 **Functions:**
 
-* :c:func:`setup`
-* :c:func:`loop`
+* :cpp:func:`setup`
+* :cpp:func:`loop`
+* :cpp:func:`batteryRead`
 * ... (other documented functions from your Arduino code)
 
