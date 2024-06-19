@@ -14,12 +14,12 @@ Welcome to Example's documentation!
    some-feature.md
    another-feature.md
 
-.. doxygenclass:: documentation-example
-   :project: documentation-example
+.. doxygenclass:: ArduinoDocs
+   :project: ArduinoDocs
    :members:
 
-.. autosummary::
-   :toctree: documentation-example
+.. autosummary:: setup
+   :toctree: setup
 
    sphinx.environment.BuildEnvironment
    sphinx.util.relative_uri
