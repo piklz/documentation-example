@@ -1,4 +1,13 @@
 
+void batteryRead ()
+{
+   /**
+   * @brief function to read values from battery pin
+   * 
+   */
+}
+
+
 void setup ()
 {      """Print info about device HELLOWORLD
         """
