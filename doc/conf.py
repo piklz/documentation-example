@@ -36,7 +36,7 @@ extensions = [
 
 # Breathe configuration (adjust paths as needed)
 breathe_projects = {
-    'ArduinoDocs': ('../src', '.')  # Replace with your project name and source/header paths
+    'ArduinoDocs': ('_build/src/', '.')  # Replace with your project name and source/header paths
 }
 breathe_default_group = 'ArduinoDocs'  # Replace with your project name
 
@@ -47,15 +47,6 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- Options for Hawkmoth ----------------------------------------------------
 # https://jnikula.github.io/hawkmoth/dev/extension.html#configuration
 
-
-
-# -- Breathe configuration -------------------------------------------------
-
-breathe_projects = {
-	"ArduinoDocs": "_build/src/"
-}
-breathe_default_project = "C++ Sphinx Doxygen Breathe"
-breathe_default_members = ('members', 'undoc-members')
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
