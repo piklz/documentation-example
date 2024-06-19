@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.11.0" xml:lang="en-US">
+  <compound refid="heltec_t_e_s_t_8ino" kind="file"><name>heltecTEST.ino</name>
+    <member refid="heltec_t_e_s_t_8ino_1a40bf1ad7152f139d549dba41187b609b" kind="define"><name>Fbattery</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a4c5a894dc3964c0809b17a21be1f13db" kind="define"><name>ADC_READ_STABILIZE</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1adbce2a52e280b664af75c0b6fab3cdc9" kind="variable"><name>SDA_OLED</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a1defaac9aad53c32b9aba9f14936bac2" kind="variable"><name>SCL_OLED</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a68607a267bbe867c67f1706b0d6fc0fe" kind="variable"><name>GEOMETRY_128_64</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a103f779bfd9fb7ddb9cbb1586c89b11d" kind="variable"><name>RST_OLED</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a3c3cb15b9529f600c5c64b35462c8d1f" kind="variable"><name>batteryVoltage</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a44a57e0377b682b8ed10666346fd9989" kind="variable"><name>batteryPercentage</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1af78d0528f4f52afa5cc855fc12ac30ac" kind="variable"><name>batteryVoltFloat</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a8e1816f162b797e5b942fd553434da0e" kind="variable"><name>batteryVoltagePin</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a3b98c69cde55501fa7ed92277a11c586" kind="variable"><name>conversionFactor</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a8054c4126feaa8c90a8a855258fb6c59" kind="variable"><name>maxChargingVoltage</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1aab0783f4bf9354a2f8e206912f25e729" kind="variable"><name>minBatteryVoltage</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a9a9f2bd2ae7b9cb7986bb4e6c03e16cd" kind="variable"><name>timeBuffer</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a86027ad9c9159f02624d136fb63364fe" kind="variable"><name>previousMillis</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a08bb09396d8cb03b5c76e17fc918cf9b" kind="variable"><name>updateInterval</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a9cc2cebef9f4ab6d7aa12e40504bfa9b" kind="variable"><name>display</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a4ad7287a68dfd2a75cf246ea77fcc2b9" kind="variable"><name>frames</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1abaf7d77bd2fc7eb6125fa605bd645b67" kind="variable"><name>frameCount</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a5425636ebd2f4c1adb1ae62320240422" kind="variable"><name>overlays</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a74fe5f06e30cb81464ccce34bf46bdc1" kind="variable"><name>overlaysCount</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a702076c32142f115196fece528c4457f" kind="function"><name>Piklz</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a3ed8678a0854450a6529170de4d020ef" kind="function"><name>msOverlay</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a2f68ce49290df4433a02c6c2aac53744" kind="function"><name>drawFrame1</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1a4fc01d736fe50cf5b977f755b675f11d" kind="function"><name>setup</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1afe461d27b9c48d5921c00d521181f12f" kind="function"><name>loop</name></member>
+    <member refid="heltec_t_e_s_t_8ino_1aeb642d5a13f6147866a8f69ca37f9014" kind="function"><name>battery_read</name></member>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+</doxygenindex>
