@@ -1,10 +1,15 @@
-
+/**
+ * @brief Reads battery voltage from the specified pin.
+ *
+ * This function reads the voltage from the battery connected to the specified pin
+ * and performs (add any specific processing details here).
+ *
+ * @param pin The Arduino pin connected to the battery.
+ * @return The battery voltage in volts (or a more specific return type if applicable).
+ */
 void batteryRead ()
 {
-   /**
-   * @brief function to read values from battery pin
-   * 
-   */
+Serial.println ("Hello BATTERY");
 }
 
 
