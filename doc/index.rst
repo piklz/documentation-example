@@ -20,11 +20,11 @@ Welcome to Example's documentation!
 API Reference
 ==============
 
-:c:func:`batteryRead()`
-:c:func:`setup`
-:c:func:`loop`
-:cpp:func:`batteryRead`
-
+:cpp:func:`batteryRead()`
+:cpp:func:`setup`
+:cpp:func:`loop`
+:c:func:`batteryRead`
+/src
 Indices and tables
 ==================
 
