@@ -32,7 +32,7 @@ release = '0.1'
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
-    'sphinx_rtd_dark_mode',
+    #'sphinx_rtd_dark_mode',
     'myst_parser',
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
