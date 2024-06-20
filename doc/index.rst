@@ -24,7 +24,7 @@ API Reference
 :cpp:func:`setup()`
 :cpp:func:`loop()`
 :c:func:`batteryRead()`
-
+.. automodule:: example
 Indices and tables
 ==================
 
