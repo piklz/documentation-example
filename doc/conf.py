@@ -84,7 +84,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #html_theme = 'sphinx_rtd_theme'
 html_theme = "furo"
 html_theme_options = {
-    'default_dark_mode': True,  # Set to True for dark mode by default
+    #'default_dark_mode': True,  # Set to True for dark mode by default
     # Other theme options (refer to sphinx_rtd_theme documentation)
     'description': 'Sphinx Autodoc for C',
     'extra_nav_links': {
