@@ -23,7 +23,11 @@ release = '0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
+
+
 extensions = [
+    'sphinx.ext.duration',
+    'sphinx.ext.doctest',
     'sphinx_rtd_dark_mode',
     'myst_parser',
     'sphinx.ext.autodoc',
@@ -34,9 +38,14 @@ extensions = [
     'sphinx.ext.autosummary',
 ]
 
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3/', None),
+    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
+}
+
 # Breathe configuration (adjust paths as needed)
 breathe_projects = {
-    'documentation-example': ('../src', '.')  # Replace with your project name and source/header paths
+    'documentation-example': ('../src', '../src')  # Replace with your project name and source/header paths
 }
 breathe_default_group = 'documentation-example'  # Replace with your project name
 
