@@ -82,7 +82,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 #html_theme = 'sphinx_rtd_theme'
-html_theme = "furo"
+html_theme = 'furo'
 html_theme_options = {
     #'default_dark_mode': True,  # Set to True for dark mode by default
     # Other theme options (refer to sphinx_rtd_theme documentation)
