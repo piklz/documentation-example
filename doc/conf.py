@@ -12,8 +12,7 @@ import shlex
 import subprocess
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath('.')), "src"))# Add parent directory to path
 
-source_suffix = '.rst'
-master_doc = 'index'
+
 
 project = u'ArduinoDocs'
 copyright = 'workshop participant'
@@ -38,6 +37,14 @@ extensions = [
     'sphinx.ext.autosummary',
 ]
 
+try:
+    # Add Copy button to code cells, if extension is available
+    import sphinx_copybutton
+    extensions.append('sphinx_copybutton')
+except ImportError:
+    pass
+
+
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
@@ -48,6 +55,13 @@ breathe_projects = {
     'documentation-example': ('../src', '../src')  # Replace with your project name and source/header paths
 }
 breathe_default_group = 'documentation-example'  # Replace with your project name
+
+# The suffix(es) of source filenames.
+# You can specify multiple suffix as a list of string:
+#
+# source_suffix = ['.rst', '.md']
+source_suffix = '.rst'
+master_doc = 'index'
 
 
 templates_path = ['_templates']
