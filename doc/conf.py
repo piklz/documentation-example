@@ -39,6 +39,9 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.viewcode',
     'sphinx.ext.autosummary',
+    'hawkmoth',
+    'hawkmoth.ext.javadoc',
+    'hawkmoth.ext.napoleon',
 ]
 
 try:
@@ -54,11 +57,22 @@ intersphinx_mapping = {
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
 
-# Breathe configuration (adjust paths as needed)
-breathe_projects = {
-    'documentation-example': ('/src', '.')  # Replace with your project name and source/header paths
-}
-breathe_default_group = 'documentation-example'  # Replace with your project name
+
+# Setup Clang on Read The Docs
+if 'READTHEDOCS' in os.environ:
+    from hawkmoth.util import readthedocs
+
+    readthedocs.clang_setup()
+
+hawkmoth_root = os.path.join(os.path.abspath(os.path.dirname(__file__)), '../test/examples')
+
+source_uri = 'https://github.com/jnikula/hawkmoth/tree/{version}/test/examples/{{source}}#L{{line}}'
+source_version = f'v{version}' if len(version.split('.')) == 3 else 'master'
+
+hawkmoth_source_uri = source_uri.format(version=source_version)
+
+
+
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -82,5 +96,10 @@ html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'default_dark_mode': True,  # Set to True for dark mode by default
     # Other theme options (refer to sphinx_rtd_theme documentation)
+    'description': 'Sphinx Autodoc for C',
+    'extra_nav_links': {
+        'GitHub': 'https://github.com/jnikula/hawkmoth',
+        'PyPI': 'https://pypi.org/project/hawkmoth',
+    }
 }
 html_static_path = ['_static']
