@@ -15,7 +15,7 @@ jobs:
           python-version: '3.11.9'
       - name: Install dependencies
         run: |
-          pip install sphinx sphinx_rtd_theme sphinx-rtd-dark-mode myst_parser hawkmoth
+          pip install sphinx sphinx_rtd_theme sphinx-rtd-dark-mode myst_parser hawkmoth clang
           
       - name: Sphinx build        
         run: cd "$GITHUB_WORKSPACE/" && sphinx-build -b html doc _build
