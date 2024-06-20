@@ -10,7 +10,7 @@ import sys
 import os
 import shlex
 import subprocess
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath('../..')), "src"))# Add parent directory to path
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath('.')), "src"))# Add parent directory to path
 
 
 
@@ -52,7 +52,7 @@ intersphinx_mapping = {
 
 # Breathe configuration (adjust paths as needed)
 breathe_projects = {
-    'documentation-example': ('../src', '../src')  # Replace with your project name and source/header paths
+    'documentation-example': ('/src', '.')  # Replace with your project name and source/header paths
 }
 breathe_default_group = 'documentation-example'  # Replace with your project name
 
