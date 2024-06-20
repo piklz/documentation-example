@@ -10,7 +10,7 @@ import sys
 import os
 import shlex
 import subprocess
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath('.')), "src"))# Add parent directory to path
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath('../')), "src"))# Add parent directory to path
 
 hawkmoth_root = os.path.abspath('../src')
 
