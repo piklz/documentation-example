@@ -20,6 +20,9 @@ Welcome to Example's documentation!
 API Reference
 ==============
 
+usage
+api
+
 :cpp:func:`batteryRead()`
 :cpp:func:`setup()`
 :cpp:func:`loop()`
