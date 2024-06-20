@@ -18,7 +18,7 @@ jobs:
           pip install sphinx sphinx_rtd_theme sphinx-rtd-dark-mode myst_parser breathe
           
       - name: Sphinx build        
-        run: cd "$GITHUB_WORKSPACE/doc" && sphinx-build -b html doc _build
+        run: cd "$GITHUB_WORKSPACE/" && sphinx-build -b html doc _build
         
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
