@@ -17,10 +17,7 @@ import subprocess
 if not tags.has('use-installed-hawkmoth') and 'READTHEDOCS' not in os.environ:
     sys.path.insert(0, os.path.abspath('../src'))
 
-with open(os.path.join(os.path.abspath(os.path.dirname(__file__)),
-                       '../src/hawkmoth/VERSION')) as version_file:
-    version = version_file.read().strip()
-    release = version
+
 
 
 project = u'ArduinoDocs'
@@ -63,18 +60,6 @@ intersphinx_mapping = {
 }
 
 
-# Setup Clang on Read The Docs
-if 'READTHEDOCS' in os.environ:
-    from hawkmoth.util import readthedocs
-
-    readthedocs.clang_setup()
-
-hawkmoth_root = os.path.join(os.path.abspath(os.path.dirname(__file__)), '../test/examples')
-
-source_uri = 'https://github.com/jnikula/hawkmoth/tree/{version}/test/examples/{{source}}#L{{line}}'
-source_version = f'v{version}' if len(version.split('.')) == 3 else 'master'
-
-hawkmoth_source_uri = source_uri.format(version=source_version)
 
 
 
