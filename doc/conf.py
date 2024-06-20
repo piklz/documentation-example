@@ -10,8 +10,12 @@ import sys
 import os
 import shlex
 import subprocess
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath('.')), "src"))# Add parent directory to path
+#sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath('.')), "src"))# Add parent directory to path
 
+# Use the installed Hawkmoth package for CI, testing, and Read the Docs, while
+# allowing documentation build using Hawkmoth from the source tree.
+if not tags.has('use-installed-hawkmoth') and 'READTHEDOCS' not in os.environ:
+    sys.path.insert(0, os.path.abspath('../src'))
 
 
 project = u'ArduinoDocs'
