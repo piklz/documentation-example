@@ -17,6 +17,11 @@ import subprocess
 if not tags.has('use-installed-hawkmoth') and 'READTHEDOCS' not in os.environ:
     sys.path.insert(0, os.path.abspath('../src'))
 
+with open(os.path.join(os.path.abspath(os.path.dirname(__file__)),
+                       '../src/hawkmoth/VERSION')) as version_file:
+    version = version_file.read().strip()
+    release = version
+
 
 project = u'ArduinoDocs'
 copyright = 'workshop participant'
