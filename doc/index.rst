@@ -22,7 +22,7 @@ API Reference
 
 usage
 api
-
+:py:func:`initialise_logger()`
 :cpp:func:`batteryRead()`
 :cpp:func:`setup()`
 :cpp:func:`loop()`
