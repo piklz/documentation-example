@@ -1,29 +1,16 @@
-"""
-This is my example script
-=========================
+def initialise_logger(output_file:Union[str, bytes, os.PathLike], mode:Optional[str]="both")->None:
+    """
+    Setup logging to console and file simultanenously. The process is described here:
+    Logging to Console and File In Python
 
-This example doesn't do much, it just makes a simple plot
-"""
+    :param output_file: log file to use. Frequently we set this to:
+    .. highlight:: python
+    .. code-block:: python
 
-# %%
-# This is a section header
-# ------------------------
-# This is the first section!
-# The `#%%` signifies to Sphinx-Gallery that this text should be rendered as
-# reST and if using one of the above IDE/plugin's, also signifies the start of a
-# 'code block'.
-
-# This line won't be rendered as reST because there's a space after the last block.
-myvariable = 2
-print("my variable is {}".format(myvariable))
-# This is the end of the 'code block' (if using an above IDE). All code within
-# this block can be easily executed all at once.
-
-# %%
-# This is another section header
-# ------------------------------
-#
-# In the built documentation, it will be rendered as reST after the code above!
-# This is also another code block.
-
-print('my variable plus 2 is {}'.format(myvariable + 2))
+            logname = __file__.replace("./", "").replace(".py", "")
+            os.path.join("logs", "{}.log".format(logname)) 
+        
+    :param mode: `both` or `file only` selects whether output is sent to file and console, or file only
+    
+    :return: No return value
+    """
