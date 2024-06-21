@@ -13,7 +13,7 @@ Welcome to Example's documentation!
    helloworld.md
    some-feature.md
    another-feature.md
-
+   api.md
 
 .. _ESP32 Project C API:
 
