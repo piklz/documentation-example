@@ -39,10 +39,6 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.viewcode',
     'sphinx.ext.autosummary',
-    'clang',
-    'hawkmoth',
-    'hawkmoth.ext.javadoc',
-    'hawkmoth.ext.napoleon',
 ]
 
 try:
