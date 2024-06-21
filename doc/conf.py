@@ -10,13 +10,13 @@ import sys
 import os
 import shlex
 import subprocess
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath('../')), "src"))# Add parent directory to path
+#sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath('../')), "src"))# Add parent directory to path
 
-hawkmoth_root = os.path.abspath('../src')
+#hawkmoth_root = os.path.abspath('../src')
 
-from hawkmoth.util import compiler
+#from hawkmoth.util import compiler
 
-hawkmoth_clang = compiler.get_include_args()
+#hawkmoth_clang = compiler.get_include_args()
 
 
 project = u'ArduinoDocs'
