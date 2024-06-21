@@ -1,3 +1,14 @@
+def multiply(a: float, b: float) -> float:
+    """
+    Multiply two numbers.
+
+    :param a: First number.
+    :param b: Second number.
+    :return: The product of a and b.
+    """
+    return a * b
+
+
 def initialise_logger(output_file:Union[str, bytes, os.PathLike], mode:Optional[str]="both")->None:
     """
     Setup logging to console and file simultanenously. The process is described here:
