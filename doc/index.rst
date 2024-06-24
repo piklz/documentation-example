@@ -22,15 +22,9 @@ API Reference
 
 usage
 api
-:py:func:`initialise_logger()`
+
+:func:`initialise_logger()`
 :cpp:func:`batteryRead()`
 :cpp:func:`setup()`
 :cpp:func:`loop()`
 :c:func:`batteryRead()`
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
