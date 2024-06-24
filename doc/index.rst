@@ -23,7 +23,7 @@ API Reference
 usage
 api
 
-:func:`initialise_logger()`
+py:example:`multiply()`
 :cpp:func:`batteryRead()`
 :cpp:func:`setup()`
 :cpp:func:`loop()`
@@ -33,5 +33,5 @@ api
 .. autosummary::
    :toctree: _autosummary
 
-   .. autofunction:: examples.multiply
+   .. autofunction:: example.multiply
    #project.module2
