@@ -33,5 +33,5 @@ api
 .. autosummary::
    :toctree: _autosummary
 
-   project.module1
-   project.module2
+   example.multiply
+   #project.module2
