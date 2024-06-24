@@ -10,8 +10,7 @@ import sys
 import os
 import shlex
 import subprocess
-#sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath('../')), "src"))# Add parent directory to path
-#sys.path.insert(0, os.path.abspath("../"))
+sys.path.insert(0, os.path.abspath("."))
 
 
 project = u'ArduinoDocs'
@@ -59,8 +58,7 @@ intersphinx_mapping = {
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
-# source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 
