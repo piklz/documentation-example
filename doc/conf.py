@@ -36,6 +36,8 @@ extensions = [
     'sphinx.ext.autosummary',
 ]
 
+autosummary_generate = True  # Turn on sphinx.ext.autosummary
+
 try:
     # Add Copy button to code cells, if extension is available
     import sphinx_copybutton
