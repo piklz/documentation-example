@@ -28,3 +28,8 @@ api
 :cpp:func:`setup()`
 :cpp:func:`loop()`
 :c:func:`batteryRead()`
+
+```{literalinclude} example.py
+:language: python
+:emphasize-lines: 2-3
+```
