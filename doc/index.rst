@@ -33,3 +33,8 @@ api
 :language: python
 :emphasize-lines: 2-3
 ```
+.. autosummary::
+   :toctree: _autosummary
+
+   project.module1
+   project.module2
